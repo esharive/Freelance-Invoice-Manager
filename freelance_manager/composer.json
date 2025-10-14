@@ -1,0 +1,23 @@
+{
+    "name": "esharive/freelancer-invoice",
+    "description": "A simple Freelancer Invoice & Client Manager web app built with PHP and MySQL",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Esharive\\FreelancerInvoice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joshua Esharive",
+            "email": "joshuaeshariveakpevweoghene@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^3.10",
+        "dompdf/dompdf": "^3.1",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

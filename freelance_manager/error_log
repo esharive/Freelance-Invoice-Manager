@@ -1,0 +1,50 @@
+[11-Oct-2025 14:08:43 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:08:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php:8
+Stack trace:
+#0 /home/joshuasi/public_html/my works/freelance_manager/config/db.php(8): mysqli->__construct('sql301.afeeshos...', 'joshuasi_joshua', 'raMen00d1es.', 'joshuasi_freela...')
+#1 /home/joshuasi/public_html/my works/freelance_manager/login.php(4): require_once('/home/joshuasi/...')
+#2 {main}
+  thrown in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:11:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:11:37 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:11:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php:8
+Stack trace:
+#0 /home/joshuasi/public_html/my works/freelance_manager/config/db.php(8): mysqli->__construct('sql301.afeeshos...', 'joshuasi_joshua', 'raMen00d1es.', 'joshuasi_freela...')
+#1 /home/joshuasi/public_html/my works/freelance_manager/login.php(4): require_once('/home/joshuasi/...')
+#2 /home/joshuasi/public_html/my works/freelance_manager/show_errors.php(7): include('/home/joshuasi/...')
+#3 {main}
+  thrown in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:16:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:16:39 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:16:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql301.afeeshost.com failed: Name or service not known in /home/joshuasi/public_html/my works/freelance_manager/config/db.php:8
+Stack trace:
+#0 /home/joshuasi/public_html/my works/freelance_manager/config/db.php(8): mysqli->__construct('sql301.afeeshos...', 'joshuasi_joshua', 'raMen00d1es.', 'joshuasi_freela...')
+#1 /home/joshuasi/public_html/my works/freelance_manager/login.php(4): include('/home/joshuasi/...')
+#2 /home/joshuasi/public_html/my works/freelance_manager/show_errors.php(7): include('/home/joshuasi/...')
+#3 {main}
+  thrown in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:21:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'joshuasi_joshua'@'localhost' (using password: YES) in /home/joshuasi/public_html/my works/freelance_manager/config/db.php:8
+Stack trace:
+#0 /home/joshuasi/public_html/my works/freelance_manager/config/db.php(8): mysqli->__construct('localhost', 'joshuasi_joshua', 'raMen00d1es.', 'joshuasi_freela...')
+#1 /home/joshuasi/public_html/my works/freelance_manager/login.php(3): include('/home/joshuasi/...')
+#2 {main}
+  thrown in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:21:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:21:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'joshuasi_joshua'@'localhost' (using password: YES) in /home/joshuasi/public_html/my works/freelance_manager/config/db.php:8
+Stack trace:
+#0 /home/joshuasi/public_html/my works/freelance_manager/config/db.php(8): mysqli->__construct('localhost', 'joshuasi_joshua', 'raMen00d1es.', 'joshuasi_freela...')
+#1 /home/joshuasi/public_html/my works/freelance_manager/login.php(3): include('/home/joshuasi/...')
+#2 /home/joshuasi/public_html/my works/freelance_manager/show_errors.php(7): include('/home/joshuasi/...')
+#3 {main}
+  thrown in /home/joshuasi/public_html/my works/freelance_manager/config/db.php on line 8
+[11-Oct-2025 14:34:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:35:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:35:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:35:34 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 21
+[11-Oct-2025 14:35:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joshuasi/public_html/my works/freelance_manager/show_errors.php:5) in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 25
+[11-Oct-2025 14:35:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:37:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:37:15 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 21
+[11-Oct-2025 14:37:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/joshuasi/public_html/my works/freelance_manager/show_errors.php:5) in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 25
+[11-Oct-2025 14:38:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
+[11-Oct-2025 14:41:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/joshuasi/public_html/my works/freelance_manager/login.php on line 3
